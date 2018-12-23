@@ -8,12 +8,6 @@
 
 using namespace std;
 
-//Sample Race Condition
-
-//Ultimate goal is to create mutex that is used to prevent a race condition
-
-//Optional parameters 1. Number of prime numbers, 2. Lower Bound(Greater than), 3. Upper Bound(Less than)
-
 //Random Number with a range
 int generateRandNum(int min, int max)
 {
